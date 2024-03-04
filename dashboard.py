@@ -34,7 +34,7 @@ def create_sum_weather_df(df):
     return sum_weather_df
 
 #Load data
-all_df = pd.read_csv("dashboard\main_df.csv")
+all_df = pd.read_csv("main_df.csv")
  
 with st.sidebar:
     # Menambahkan logo perusahaan
